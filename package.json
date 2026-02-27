@@ -1,0 +1,16 @@
+{
+  "name": "watersort",
+  "version": "0.1.0",
+  "description": "Water sort puzzle sample in TypeScript",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "npm run build && node dist/main.js",
+    "play": "npm run build && node dist/app.js",
+    "preview": "npm run build && node dist/gui.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  }
+}
